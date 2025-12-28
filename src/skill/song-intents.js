@@ -69,7 +69,7 @@ const Processor = async function(handlerInput, action = "play")
                 if (item.AlbumArtist && item.AlbumArtist.toLowerCase() == artist.Name.toLowerCase())
                 {
                     Log.info("Found ", item.Name);
-                    album = item;
+                    song = item;
                     break;
                 }
             }
@@ -82,13 +82,13 @@ const Processor = async function(handlerInput, action = "play")
                 {
                     const suggestion = `${song.Name} by ${song.AlbumArtist}`;
 
-                    const speach = tFor(handlerInput, 'SONG_NOT_FOUND_SUGGESTION', { song: slots.songname.value, artist: artist.name || slots.artistname.value, suggestion });
+                    const speach = tFor(handlerInput, 'SONG_NOT_FOUND_SUGGESTION', { song: slots.songname.value, artist: artist.Name || slots.artistname.value, suggestion });
                     
                     return [{status: false, speach}];
                 }
                 else
                 {
-                    const speach = tFor(handlerInput, 'SONG_NOT_FOUND_BY_ARTIST', { song: slots.songname.value, artist: artist.name || slots.artistname.value });
+                    const speach = tFor(handlerInput, 'SONG_NOT_FOUND_BY_ARTIST', { song: slots.songname.value, artist: artist.Name || slots.artistname.value });
                     return [{status: false, speach}];
                 }
             }

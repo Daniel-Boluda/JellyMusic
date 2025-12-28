@@ -83,8 +83,17 @@ PlayListItem.getMetaData = function()
     object.title = this.Item.Name;
     object.subtitle = this.Item.AlbumArtist;
 
-    if (this.Item.AlbumId)
-        object.art = new Alexa.ImageHelper().addImageInstance(this.getArtURL()).getImage();
+    if (this.Item.AlbumId) {
+        const artUrl = this.getArtURL();
+        if (artUrl) {
+            // ask-sdk-core no longer exports ImageHelper in some versions; fall back to a minimal Image object.
+            if (Alexa && typeof Alexa.ImageHelper === 'function') {
+                object.art = new Alexa.ImageHelper().addImageInstance(artUrl).getImage();
+            } else {
+                object.art = { sources: [ { url: artUrl } ] };
+            }
+        }
+    }
     
     return object;
 };
