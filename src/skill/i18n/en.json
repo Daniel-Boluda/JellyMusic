@@ -48,5 +48,31 @@
   "PLAYLIST_EMPTY": "The playlist {{playlist}} is empty.",
 
   "NO_SONG_PLAYING": "There is currently no song playing.",
-  "CURRENT_SONG": "The current song is {{song}} by {{artist}}"
+  "CURRENT_SONG": "The current song is {{song}} by {{artist}}",
+
+  "MISSING_MOVIE_NAME": "I didn't catch the movie name.",
+  "MOVIE_NOT_FOUND": "I didn't find a movie called {{movie}}.",
+  "NO_VIDEO_SUPPORT": "This device doesn't support video playback. Try using an Echo Show or another device with a screen.",
+  "PLAYING_MOVIE": "Playing {{movie}}, on {{skill}}",
+
+  "MISSING_SERIES_NAME": "I didn't catch the series name.",
+  "SERIES_NOT_FOUND": "I didn't find a series called {{series}}.",
+  "NO_EPISODES_FOUND": "I couldn't find episodes for {{series}}.",
+  "PLAYING_EPISODE": "Playing {{episode}} from {{series}}, on {{skill}}",
+
+  "MISSING_DEVICE_NAME": "I didn't catch the device name to play on.",
+  "NO_JELLYFIN_DEVICES": "I couldn't find any Jellyfin devices available now.",
+  "DEVICE_NOT_FOUND": "I couldn't find a device with that name. You can say 'list devices' to hear available devices.",
+  "DEVICE_NAME_AMBIGUOUS": "I found multiple devices matching that name: {{devices}}. Please be more specific.",
+  "SESSION_INACTIVE": "That device doesn't appear to have Jellyfin open or active. Open Jellyfin on the device and try again.",
+  "PLAYBACK_STARTED_ON_DEVICE": "Requested playback of {{title}} on {{device}}.",
+  "PLAYBACK_FAILED": "I couldn't start playback on that device. Please try again later.",
+  "PLAYBACK_MISMATCH": "I couldn't start the requested episode; it's playing {{actual}} instead.",
+  "LIST_DEVICES": "I can play on: {{devices}}.",
+
+  "ASK_TO_SELECT_DEVICE": "I can play on multiple devices. Say 'change to <device name>' to select one.",
+  "CHANGE_DEVICE_SUCCESS": "Changed playback device to {{device}}.",
+  "NO_VIDEO_CONTEXT": "I don't have a recent TV show in context. Ask me to play a series first.",
+  "NEXT_EPISODE_NOT_AVAILABLE": "I couldn't find a next episode to play for {{series}}.",
+  "PREVIOUS_EPISODE_NOT_AVAILABLE": "I couldn't find a previous episode for {{series}}."
 }

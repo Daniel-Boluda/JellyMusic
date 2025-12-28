@@ -48,5 +48,31 @@
   "PLAYLIST_EMPTY": "La lista {{playlist}} está vacía.",
 
   "NO_SONG_PLAYING": "Actualmente no hay ninguna canción reproduciéndose.",
-  "CURRENT_SONG": "La canción actual es {{song}} de {{artist}}"
+  "CURRENT_SONG": "La canción actual es {{song}} de {{artist}}",
+
+  "MISSING_MOVIE_NAME": "No he captado el nombre de la película.",
+  "MOVIE_NOT_FOUND": "No he encontrado una película llamada {{movie}}.",
+  "NO_VIDEO_SUPPORT": "Este dispositivo no soporta reproducción de vídeo. Prueba con un Echo Show u otro dispositivo con pantalla.",
+  "PLAYING_MOVIE": "Reproduciendo {{movie}}, en {{skill}}",
+
+  "MISSING_SERIES_NAME": "No he captado el nombre de la serie.",
+  "SERIES_NOT_FOUND": "No he encontrado una serie llamada {{series}}.",
+  "NO_EPISODES_FOUND": "No encontré episodios para {{series}}.",
+  "PLAYING_EPISODE": "Reproduciendo {{episode}} de {{series}}, en {{skill}}",
+
+  "MISSING_DEVICE_NAME": "No he captado el nombre del dispositivo donde reproducir.",
+  "NO_JELLYFIN_DEVICES": "No encontré ningún dispositivo Jellyfin disponible ahora.",
+  "DEVICE_NOT_FOUND": "No encontré un dispositivo con ese nombre. Puedes decir 'lista de dispositivos' para escuchar los dispositivos disponibles.",
+  "DEVICE_NAME_AMBIGUOUS": "Encontré varios dispositivos con ese nombre: {{devices}}. Por favor, sé más específico.",
+  "SESSION_INACTIVE": "Ese dispositivo no parece tener Jellyfin abierto o activo. Abre Jellyfin en el dispositivo e inténtalo de nuevo.",
+  "PLAYBACK_STARTED_ON_DEVICE": "He solicitado la reproducción de {{title}} en {{device}}.",
+  "PLAYBACK_FAILED": "No pude iniciar la reproducción en ese dispositivo. Por favor, inténtalo más tarde.",
+  "PLAYBACK_MISMATCH": "No he podido iniciar el episodio solicitado; se está reproduciendo {{actual}} en su lugar.",
+  "LIST_DEVICES": "Puedo reproducir en: {{devices}}.",
+
+  "ASK_TO_SELECT_DEVICE": "Puedo reproducir en varios dispositivos. Di 'cambiar a <nombre del dispositivo>' para seleccionar uno.",
+  "CHANGE_DEVICE_SUCCESS": "Dispositivo seleccionado: {{device}}.",
+  "NO_VIDEO_CONTEXT": "No tengo una serie reciente en contexto. Pídeme reproducir una serie primero.",
+  "NEXT_EPISODE_NOT_AVAILABLE": "No encontré un siguiente episodio para {{series}}.",
+  "PREVIOUS_EPISODE_NOT_AVAILABLE": "No encontré un episodio anterior para {{series}}."
 }

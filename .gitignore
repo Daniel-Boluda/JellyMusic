@@ -8,3 +8,24 @@ npm-debug.log
 .DS_Store
 .devcontainer/.env
 dockerbuild.sh
+test-debug.json
+
+# Ignore credential and secret files (keys, certs, envs, configs)
+# Private keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.crt
+*.cer
+
+# Generic secret files
+*.secret
+*credentials*
+
+# App config containing potential secrets
+config.json
+
+# Production debug payloads (may include tokens)
+prod-debug.json

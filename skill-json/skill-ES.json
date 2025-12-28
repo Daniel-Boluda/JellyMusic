@@ -73,8 +73,20 @@
                         "reproduce música de {artistname}",
                         "pon al artista {artistname}",
                         "reproduce al artista {artistname}",
-                        "pon {artistname}",
-                        "reproduce {artistname}"
+                        "pon el artista {artistname}",
+                        "reproduce el artista {artistname}",
+                        "pon el grupo {artistname}",
+                        "reproduce el grupo {artistname}",
+                        "pon la banda {artistname}",
+                        "reproduce la banda {artistname}",
+                        "pon canciones del grupo {artistname}",
+                        "reproduce canciones del grupo {artistname}",
+                        "pon canciones de la banda {artistname}",
+                        "reproduce canciones de la banda {artistname}",
+                        "pon música del grupo {artistname}",
+                        "reproduce música del grupo {artistname}",
+                        "pon música de la banda {artistname}",
+                        "reproduce música de la banda {artistname}"
                     ]
                 },
                 {
@@ -90,14 +102,12 @@
                         }
                     ],
                     "samples": [
-                        "pon {songname} de {artistname}",
-                        "reproduce {songname} de {artistname}",
                         "pon la canción {songname} de {artistname}",
                         "reproduce la canción {songname} de {artistname}",
-                        "pon {songname}",
-                        "reproduce {songname}",
                         "pon la canción {songname}",
-                        "reproduce la canción {songname}"
+                        "reproduce la canción {songname}",
+                        "pon la cancion {songname}",
+                        "reproduce la cancion {songname}"
                     ]
                 },
                 {
@@ -170,12 +180,18 @@
                         }
                     ],
                     "samples": [
-                        "pon {artistname} en aleatorio",
                         "pon canciones de {artistname} en aleatorio",
-                        "reproduce {artistname} en aleatorio",
                         "reproduce canciones de {artistname} en aleatorio",
                         "mezcla canciones de {artistname}",
-                        "aleatorio canciones de {artistname}"
+                        "aleatorio canciones de {artistname}",
+                        "pon música de {artistname} en aleatorio",
+                        "reproduce música de {artistname} en aleatorio",
+                        "mezcla música de {artistname}",
+                        "aleatorio música de {artistname}",
+                        "pon canciones del grupo {artistname} en aleatorio",
+                        "reproduce canciones del grupo {artistname} en aleatorio",
+                        "pon canciones de la banda {artistname} en aleatorio",
+                        "reproduce canciones de la banda {artistname} en aleatorio"
                     ]
                 },
                 {
@@ -223,13 +239,9 @@
                         }
                     ],
                     "samples": [
-                        "añade {songname} a la cola",
                         "añade la canción {songname} a la cola",
-                        "añade {songname} de {artistname} a la cola",
                         "añade la canción {songname} de {artistname} a la cola",
-                        "pon en cola {songname}",
                         "pon en cola la canción {songname}",
-                        "pon en cola {songname} de {artistname}",
                         "pon en cola la canción {songname} de {artistname}"
                     ]
                 },
@@ -255,9 +267,7 @@
                         "pon música {genre}",
                         "reproduce música {genre}",
                         "pon género {genre}",
-                        "reproduce género {genre}",
-                        "pon {genre}",
-                        "reproduce {genre}"
+                        "reproduce género {genre}"
                     ]
                 },
                 {
@@ -297,9 +307,6 @@
                     "name": "WhatThisIntent",
                     "slots": [],
                     "samples": [
-                        "qué está sonando",
-                        "qué está sonando ahora",
-                        "qué es esto",
                         "qué canción es esta",
                         "cómo se llama esta canción",
                         "dime el nombre de esta canción"
@@ -317,8 +324,12 @@
                         "añade canciones de {artistname} a la cola",
                         "pon en cola canciones de {artistname}",
                         "cola canciones de {artistname}",
-                        "añade {artistname} a la cola",
-                        "pon en cola {artistname}"
+                        "añade al artista {artistname} a la cola",
+                        "pon en cola al artista {artistname}",
+                        "añade el grupo {artistname} a la cola",
+                        "pon en cola el grupo {artistname}",
+                        "añade la banda {artistname} a la cola",
+                        "pon en cola la banda {artistname}"
                     ]
                 },
                 {
@@ -331,7 +342,19 @@
                     ],
                     "samples": [
                         "reproducir la película {moviename}",
-                        "ver {moviename}"
+                        "ver la película {moviename}",
+                        "quiero ver la película {moviename}",
+                        "pon la película {moviename}",
+                        "pon pelicula {moviename}",
+                        "ponme la película {moviename}",
+                        "ponme la pelicula {moviename}",
+                        "que ponga la película {moviename}",
+                        "que reproduzca la película {moviename}",
+                        "reproduce la película {moviename}",
+                        "pon la pelicula {moviename}",
+                        "que ponga la pelicula {moviename}",
+                        "que reproduzca la pelicula {moviename}",
+                        "reproduce la pelicula {moviename}"
                     ]
                 },
                 {
@@ -344,7 +367,14 @@
                     ],
                     "samples": [
                         "reproducir la serie {seriesname}",
-                        "reproducir {seriesname}"
+                        "ver la serie {seriesname}",
+                        "quiero ver la serie {seriesname}",
+                        "pon la serie {seriesname}",
+                        "pon serie {seriesname}",
+                        "ponme la serie {seriesname}",
+                        "que ponga la serie {seriesname}",
+                        "que reproduzca la serie {seriesname}",
+                        "reproduce la serie {seriesname}"
                     ]
                 },
                 {
@@ -365,9 +395,8 @@
                         }
                     ],
                     "samples": [
-                        "cambia al {devicename}",
-                        "usar {devicename}",
-                        "cambiar de dispositivo"
+                        "cambia al dispositivo {devicename}",
+                        "usar el dispositivo {devicename}"
                     ]
                 },
                 {
@@ -375,8 +404,7 @@
                     "slots": [],
                     "samples": [
                         "siguiente episodio",
-                        "pon el siguiente episodio",
-                        "continuar"
+                        "pon el siguiente episodio"
                     ]
                 },
                 {
@@ -387,7 +415,8 @@
                         "pon el episodio anterior"
                     ]
                 }
-            ]
+            ],
+            "types": []
         }
     }
 }

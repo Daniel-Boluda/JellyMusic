@@ -17,6 +17,7 @@ const SongIntents = require("./song-intents.js");
 const PlaylistIntents = require("./playlist-intents.js");
 
 const GenreIntents = require("./genre-intent.js");
+const MovieIntents = require("./movie-intents.js");
 
 const QueryIntents = require("./query-intents.js");
 const Log = require('../logger.js');
@@ -100,6 +101,12 @@ const skill = Alexa.SkillBuilders.custom()
         PlaylistIntents.PlayPlaylistIntent,
         SongIntents.PlaySongIntent,
         GenreIntents.PlayGenreIntent,
+        MovieIntents.PlayMovieIntent,
+        MovieIntents.PlaySeriesIntent,
+        MovieIntents.ListPlaybackDevicesIntent,
+        MovieIntents.ChangePlaybackDeviceIntent,
+        MovieIntents.NextEpisodeIntent,
+        MovieIntents.PreviousEpisodeIntent,
 
         AlbumIntents.ShuffleAlbumIntent,
         ArtistIntents.ShuffleArtistIntent,

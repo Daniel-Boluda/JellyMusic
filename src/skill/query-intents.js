@@ -4,6 +4,7 @@ const Devices = require("../playlist/devices.js");
 
 const { CreateIntent } = require("./alexa-helper.js");
 const Log = require('../logger.js');
+const { tFor } = require('./i18n');
 
 /*********************************************************************************
  * Current Track Query
